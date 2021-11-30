@@ -18,4 +18,10 @@
   "extensions": ["esbenp.prettier-vscode"],
 
   "forwardPorts": [3000]
+  
+  "hostRequirements": {
+  "cpus": 8,
+  "memory": "16gb", 
+  "storage": "32gb" 
+}
 }
