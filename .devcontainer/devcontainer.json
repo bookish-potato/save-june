@@ -8,6 +8,11 @@
   "remoteUser": "node",
 
   "runServices": [],
+    
+   "hostRequirements": {
+  "memory": "16gb", 
+  "storage": "32gb" 
+   },
 
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
@@ -19,9 +24,6 @@
 
   "forwardPorts": [3000]
   
-  "hostRequirements": {
-  "cpus": 8,
-  "memory": "16gb", 
-  "storage": "32gb" 
+ 
 }
 }
